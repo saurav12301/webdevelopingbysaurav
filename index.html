@@ -3,12 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My learning websites no 1</title>
-    <link rel="stylesheet" href="style.css">
+    <title>forms</title>
 </head>
 <body>
-    This is my new website for learning web developing
-    and i am Saurav kumar,from Samastipur, Bihar. 
-    <script  src="script.js"></script>
+    <h1>This forms to apply student enrollment</h1>
+    <form action="post">
+    <div>
+        <label for="username">Enter your username</label>
+        <input type="text" name="username" id="username" placeholder="Enter your username" autofocus>
+    </div>
+    <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label>
+    </div>
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">subscribe for newsletter</label>
+    </div>
+    <div>
+        <label for="comment">Enter your comment</label>
+        <br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+    </div>
+    <div>
+        <select name="branch" >
+            <option value="cse">CSE</option>
+            <option value="civil">CIVIL</option>
+            <option value="electrical">ELECTRICAL</option>
+        </select>
+    </div>
+    </form>
 </body>
 </html>
